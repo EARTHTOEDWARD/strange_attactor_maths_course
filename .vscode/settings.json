@@ -1,0 +1,23 @@
+{
+  "github.copilot.chat.welcomeMessage": "auto-summary",
+  "github.copilot.chat.instructions": [
+    {
+      "name": "Auto-Summary Protocol",
+      "description": "Every 10 interactions, ask for a summary and suggest starting fresh",
+      "instruction": "Track conversation length. After every 10 prompts, automatically provide a summary of what we've accomplished and suggest: 'Would you like me to summarize our progress and start a fresh chat to keep context manageable?'"
+    }
+  ],
+  "github.copilot.chat.localeOverride": "en",
+  "files.associations": {
+    "*.conversation-tracker": "json"
+  },
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    ".",
+    "-p",
+    "*test.py"
+  ],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true
+}
